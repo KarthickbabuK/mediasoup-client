@@ -1,0 +1,128 @@
+{
+  "_args": [
+    [
+      "mediasoup-client@3.6.101",
+      "/Users/admin/Desktop/Simpler-trade/simpler_mobile"
+    ]
+  ],
+  "_from": "mediasoup-client@3.6.101",
+  "_id": "mediasoup-client@3.6.101",
+  "_inBundle": false,
+  "_integrity": "sha512-B2sAexKae5hDLs3UrAj2/HJiLj3eJNtbhJhn+AtCSRk3Iy5lTQNNxLAFkDOqtI5O8QLn+dKoX2ODXgNIuVDjUg==",
+  "_location": "/mediasoup-client",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "mediasoup-client@3.6.101",
+    "name": "mediasoup-client",
+    "escapedName": "mediasoup-client",
+    "rawSpec": "3.6.101",
+    "saveSpec": null,
+    "fetchSpec": "3.6.101"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/versatica/mediasoup-client.git#79fba5b8c99f9d2785e55beaadd5aaf63f471e71",
+  "_spec": "3.6.101",
+  "_where": "/Users/admin/Desktop/Simpler-trade/simpler_mobile",
+  "bugs": {
+    "url": "https://github.com/versatica/mediasoup-client/issues"
+  },
+  "contributors": [
+    {
+      "name": "Iñaki Baz Castillo",
+      "email": "ibc@aliax.net",
+      "url": "https://inakibaz.me"
+    },
+    {
+      "name": "José Luis Millán",
+      "email": "jmillan@aliax.net",
+      "url": "https://github.com/jmillan"
+    }
+  ],
+  "dependencies": {
+    "@types/debug": "^4.1.8",
+    "awaitqueue": "^3.0.1",
+    "debug": "^4.3.4",
+    "events": "^3.3.0",
+    "fake-mediastreamtrack": "^1.1.6",
+    "h264-profile-level-id": "^1.0.1",
+    "queue-microtask": "^1.2.3",
+    "sdp-transform": "^2.14.1",
+    "supports-color": "^9.4.0",
+    "ua-parser-js": "^1.0.35"
+  },
+  "description": "mediasoup client side JavaScript library",
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@types/jest": "^29.5.3",
+    "@types/sdp-transform": "^2.4.6",
+    "@types/ua-parser-js": "^0.7.36",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-jest": "^27.2.3",
+    "jest": "^29.6.1",
+    "open-cli": "^7.2.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "npm-scripts.mjs",
+    "lib"
+  ],
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/mediasoup"
+  },
+  "homepage": "https://mediasoup.org",
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "testRegex": "src/tests/test.*\\.ts",
+    "transform": {
+      "^.*\\.ts$": [
+        "ts-jest",
+        {
+          "diagnostics": {
+            "ignoreCodes": [
+              "TS151001"
+            ]
+          }
+        }
+      ]
+    },
+    "cacheDirectory": ".cache/jest"
+  },
+  "keywords": [
+    "webrtc",
+    "ortc",
+    "browser",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "mediasoup-client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/versatica/mediasoup-client.git"
+  },
+  "scripts": {
+    "coverage": "node npm-scripts.mjs coverage",
+    "install-deps": "node npm-scripts.mjs install-deps",
+    "lint": "node npm-scripts.mjs lint",
+    "prepare": "node npm-scripts.mjs prepare",
+    "release": "node npm-scripts.mjs release",
+    "release:check": "node npm-scripts.mjs release:check",
+    "test": "node npm-scripts.mjs test",
+    "typescript:build": "node npm-scripts.mjs typescript:build",
+    "typescript:watch": "node npm-scripts.mjs typescript:watch"
+  },
+  "types": "lib/index.d.ts",
+  "version": "3.6.98"
+}
